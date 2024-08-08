@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Arial;
+    margin: 0;
+    padding: 0;
+    background-color: hwb(201 70% 0%);
+}
+p {
+    color: #000000;
+}
+h1 {
+    color: #000000;
+}
+header {
+    background-color: #b5ddfe;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: hsl(0, 0%, 0%);
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #a8dfff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(0, 221, 255);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.box-Collections {
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 90px;
+    align-content: center;
+}
+.box-kiri, .box-tengah, .box-kanan {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+.box-Brands {
+    text-align: center;
+    color: #bff4ff;
+    margin-top: 90px;
+    align-content: center;
+}
+.box-kiri, .box-tengah, .box-kanan {
+    width: 200px;
+    height: 200px;
+    background-color: hsl(209, 100%, 88%);
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}

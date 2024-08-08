@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(209, 100%, 89%);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #343a40 !important;
+  }
+  
+  .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+    height: 100%
+    object-fit: cover;
+    filter: brightness(0.75);
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.25rem;
+  }
+  
+  .carousel-indicators li {
+    background-color: #343a40;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #343a40;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #bddaf7;
+    padding: 10px 0;
+  }
+  
